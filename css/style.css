@@ -1,0 +1,206 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+body {
+  background-color: #f1f1f1;
+  font-family: "Roboto", serif;
+}
+
+header {
+  width: 100vw;
+  height: 76px;
+  display: flex;
+  margin: 0 auto;
+  position: fixed;
+  top: 0;
+  z-index: 10;
+  background-color: #f1f1f1;
+  align-items: center;
+}
+header ul {
+  display: flex;
+  margin-left: calc(50vw - 582.5px);
+}
+header ul li {
+  margin-right: 35px;
+}
+header ul li a {
+  font-weight: 700;
+  font-size: 11px;
+  line-height: 12.89px;
+  color: #000000;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+header img {
+  width: 36px;
+  height: 36px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 50%;
+}
+
+main {
+  width: 1165px;
+  height: 100%;
+  display: flex;
+  margin: 0 auto;
+  flex-direction: column;
+  margin-top: 76px;
+}
+main #section1 h1 {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28.13px;
+  color: #000000;
+  text-transform: uppercase;
+}
+main #section1 article {
+  width: 1165px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 27px;
+}
+main #section1 article .cards {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+main #section1 article .cards img {
+  width: 362px;
+  height: 186px;
+}
+main #section1 article .cards h2 {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 23.44px;
+  color: #ffffff;
+  position: absolute;
+  top: 32px;
+  left: 41px;
+}
+main #section1 article .cards div {
+  width: 362px;
+  height: 171px;
+  background-color: #ffffff;
+  margin-top: -2px;
+  padding-top: 68px;
+  padding-left: 37px;
+  box-sizing: border-box;
+}
+main #section1 article .cards div p {
+  width: 238px;
+  height: 36px;
+  font-weight: 700;
+  font-size: 10px;
+  line-height: 19.72px;
+  color: #8a8787;
+}
+main #section1 article .cards div img {
+  width: 16px;
+  height: 16px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  vertical-align: top;
+  margin: 11px 7px 0 3px;
+}
+main #section1 article .cards div span {
+  display: inline-block;
+  margin-top: 14px;
+  font-weight: 700;
+  font-size: 10px;
+  line-height: 11.72px;
+  color: #8a8787;
+}
+main #section2 {
+  margin-top: 57px;
+}
+main #section2 h1 {
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 28.13px;
+  color: #000000;
+  text-transform: uppercase;
+}
+main #section2 article {
+  display: flex;
+  flex-direction: row;
+  margin-top: 30px;
+}
+main #section2 article #big-imgs {
+  width: 758px;
+  margin-right: 45px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+main #section2 article #big-imgs img {
+  width: 758px;
+  height: 430px;
+}
+main #section2 article #big-imgs h2 {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 23.44px;
+  color: #ffffff;
+  position: absolute;
+  top: 203px;
+  left: 278px;
+}
+main #section2 article #small-imgs {
+  display: flex;
+  flex-direction: column;
+}
+main #section2 article #small-imgs img {
+  width: 362px;
+  height: 212px;
+  margin-top: 100px;
+}/*# sourceMappingURL=style.css.map */

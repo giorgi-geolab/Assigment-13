@@ -1,0 +1,21 @@
+@mixin center($width: 1165px, $height: 76px) {
+  width: $width;
+  height: $height;
+  display: flex;
+  margin: 0 auto;
+}
+
+@mixin textInImg-mixin($top: 32px, $left: 41px) {
+  font-weight: $textInImg-FontWeight;
+  font-size: $textInImg-FontSize;
+  line-height: $textInImg-LineHeight;
+  color: $textInImg-Color;
+  position: absolute;
+  top: $top;
+  left: $left;
+}
+
+@mixin sizeOfSection1-imgs($height: 186px) {
+  width: 362px;
+  height: $height;
+}
